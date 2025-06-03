@@ -129,7 +129,7 @@ This project presents an innovative **Internet of Things (IoT)** solution for **
 
 1. **Clone the repository:**
 ```bash
-git clone https://github.com/yourusername/iot-health-monitoring.git
+git clone https://github.com/ecnirpleirbag/iot-health-monitoring.git
 cd iot-health-monitoring
 ```
 
@@ -141,8 +141,8 @@ cd iot-health-monitoring
 3. **Configure WiFi settings:**
 ```cpp
 // In ESP32 code (config.h)
-const char* ssid = "YOUR_WIFI_SSID";
-const char* password = "YOUR_WIFI_PASSWORD";
+const char* ssid = "YOUR_WIFI_SSID"; // change to wifi name
+const char* password = "YOUR_WIFI_PASSWORD"; // add your wifi password
 ```
 
 4. **Upload code:**
@@ -372,10 +372,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 👥 Authors & Acknowledgments
 
 **Development Team:**
-- **Gabriel Prince D** - *Lead Developer* - [Email](mailto:gabrielprince2320060@ssn.edu.in)
-- **Arjun MP** - *Hardware Integration* - [Email](mailto:arjun2320047@ssn.edu.in)
-- **Kanchana R** - *Project Mentor* - [Email](mailto:rkanch@ssn.edu.in)
-- **Kharihara Sudhan** - *System Design* - [Email](mailto:khariharasudhan2320078@ssn.edu.in)
+- **Gabriel Prince D** - *Lead Developer* - *Student ME CSE* - [Email](mailto:gabrielprince2320060@ssn.edu.in)
+- **Arjun MP** - *Hardware Integration* - *Student ME CSE* - [Email](mailto:arjun2320047@ssn.edu.in)
+- **Kanchana R** - *Project Mentor*- *Associate Professor ME CSE*  - [Email](mailto:rkanch@ssn.edu.in)
+- **Kharihara Sudhan** - *System Design* - *Student MTech IT*  - [Email](mailto:khariharasudhan2320078@ssn.edu.in)
 
 **Institution:**
 - Sri Sivasubramaniya Nadar College of Engineering, Chennai, India
@@ -388,9 +388,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📞 Support & Contact
 
 ### Technical Support
-- **GitHub Issues**: [Create an issue](https://github.com/yourusername/iot-health-monitoring/issues)
-- **Email Support**: [project-support@ssn.edu.in](mailto:project-support@ssn.edu.in)
-- **Documentation**: [Wiki Pages](https://github.com/yourusename/iot-health-monitoring/wiki)
+- **GitHub Issues**: [Create an issue](https://github.com/ecnirpleirbag/iot-health-monitoring/issues)
+- **Email Support**: [project-support@ssn.edu.in](mailto:gabrielprince2320060@ssn.edu.in)
+- **Documentation**: [Wiki Pages](https://github.com/ecnirpleirbag/iot-health-monitoring/wiki)
 
 ### Research Collaboration
 For academic collaborations or research partnerships:
