@@ -1,0 +1,7 @@
+{
+  "submit_vitals": "/api/v1/submit",
+  "health_check": "/health",
+  "user_login": "/api/v1/user/login",
+  "user_register": "/api/v1/user/register",
+  "get_latest_vitals": "/api/v1/vitals/latest"
+}
