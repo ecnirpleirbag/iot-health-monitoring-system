@@ -1,1 +1,7 @@
-// Code need to be uploaded by Gabriel
+{
+  "heart_rate": 78,
+  "temperature": 36.7,
+  "systolic": 122,
+  "diastolic": 82,
+  "timestamp": "2025-06-04T12:00:00Z"
+}
