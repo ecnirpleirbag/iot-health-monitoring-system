@@ -1,0 +1,21 @@
+# Sensor Libraries
+Adafruit MAX30100 Library
+SparkFun AD8232 Library
+Adafruit MPU6050
+DallasTemperature
+OneWire
+
+# Display Libraries
+Adafruit SSD1306
+Adafruit GFX Library
+
+# Communication Libraries
+WiFi
+HTTPClient
+PubSubClient   # For MQTT communication
+ArduinoJson    # For parsing/sending JSON data
+
+# Utility Libraries
+Wire
+SPI
+SoftwareSerial  # If any legacy support needed
