@@ -1,0 +1,21 @@
+# Sensor Libraries
+SparkFun AD8232 Library          ; For ECG signal acquisition
+Adafruit MAX30100 Library        ; For heart rate and SpO2 measurement
+Adafruit MPU6050                 ; For motion tracking (accelerometer & gyroscope)
+DallasTemperature                ; For temperature readings
+OneWire                          ; Required for DallasTemperature sensors
+
+# Display Libraries
+Adafruit SSD1306                 ; OLED Display support
+Adafruit GFX Library             ; Graphics primitives for SSD1306
+
+# Communication Libraries
+SoftwareSerial                   ; Serial communication support for Uno
+Wire                             ; I2C communication for sensors and modules
+SPI                              ; SPI communication if needed
+
+# Data Formatting
+ArduinoJson                      ; JSON support for serial/web communication (if applicable)
+
+# Optional Utilities
+LiquidCrystal_I2C                ; If using LCD via I2C adapter
