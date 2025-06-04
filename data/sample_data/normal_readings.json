@@ -1,0 +1,16 @@
+[
+  {
+    "timestamp": "2025-06-01T12:00:00Z",
+    "heart_rate": 72,
+    "temperature": 36.7,
+    "systolic": 120,
+    "diastolic": 80
+  },
+  {
+    "timestamp": "2025-06-01T12:05:00Z",
+    "heart_rate": 75,
+    "temperature": 36.8,
+    "systolic": 118,
+    "diastolic": 78
+  }
+]
