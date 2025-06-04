@@ -1,1 +1,12 @@
-// Code need to be uploaded by Gabriel
+[
+  {
+    "description": "Normal vitals",
+    "input": { "heart_rate": 72, "temperature": 36.5, "systolic": 118, "diastolic": 76 },
+    "expected_alert": false
+  },
+  {
+    "description": "High heart rate",
+    "input": { "heart_rate": 140, "temperature": 36.5, "systolic": 120, "diastolic": 80 },
+    "expected_alert": true
+  }
+]
