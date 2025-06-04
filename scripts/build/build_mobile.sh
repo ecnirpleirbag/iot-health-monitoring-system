@@ -1,12 +1,16 @@
 #!/bin/bash
 
-echo "📦 Compiling Arduino UNO sketch..."
+echo "📱 Building Flutter mobile app..."
 
-arduino-cli compile --fqbn arduino:avr:uno arduino/uno_main
+cd mobile_app
+
+flutter pub get
+
+flutter build apk --release
 
 if [ $? -eq 0 ]; then
-  echo "✅ Arduino UNO sketch compiled successfully."
+  echo "✅ Mobile app built successfully."
 else
-  echo "❌ Compilation failed for Arduino UNO."
+  echo "❌ Flutter build failed."
   exit 1
 fi
