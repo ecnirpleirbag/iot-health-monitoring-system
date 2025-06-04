@@ -1,0 +1,23 @@
+# Core Scientific Libraries
+numpy
+scipy
+pandas
+matplotlib
+
+# Signal Processing & Filtering
+biosppy
+pyhrv
+
+# Serial Communication
+pyserial
+
+# Web Server or Dashboard (optional)
+flask
+requests
+
+# Machine Learning (optional)
+scikit-learn
+
+# Development & Testing Tools
+pytest
+jupyterlab
