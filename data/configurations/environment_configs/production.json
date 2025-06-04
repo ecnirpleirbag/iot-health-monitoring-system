@@ -1,0 +1,19 @@
+{
+  "debug": false,
+  "database": {
+    "type": "postgresql",
+    "host": "prod-db-host",
+    "port": 5432,
+    "username": "prod_user",
+    "password": "secure_password",
+    "database": "vitals_prod"
+  },
+  "logging": {
+    "level": "INFO",
+    "file": "/var/log/iot_health_monitor.log"
+  },
+  "api_server": {
+    "host": "0.0.0.0",
+    "port": 80
+  }
+}
