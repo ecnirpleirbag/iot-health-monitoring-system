@@ -1,0 +1,19 @@
+{
+  "host": "0.0.0.0",
+  "port": 5000,
+  "use_https": false,
+  "database": {
+    "type": "sqlite",
+    "file": "vitals.db"
+  },
+  "logging": {
+    "level": "INFO",
+    "save_to_file": true,
+    "file_path": "logs/server.log"
+  },
+  "notifications": {
+    "enable_alerts": true,
+    "email_enabled": false,
+    "sms_enabled": false
+  }
+}
