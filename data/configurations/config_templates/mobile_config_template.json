@@ -1,0 +1,20 @@
+{
+  "api_base_url": "http://your.server.ip.address:5000/api/v1",
+  "polling_interval_seconds": 10,
+  "alert_thresholds": {
+    "heart_rate_min": 50,
+    "heart_rate_max": 120,
+    "temperature_max": 38.5,
+    "systolic_max": 140,
+    "diastolic_max": 90
+  },
+  "firebase": {
+    "apiKey": "YOUR_FIREBASE_API_KEY",
+    "authDomain": "YOUR_PROJECT.firebaseapp.com",
+    "databaseURL": "https://YOUR_PROJECT.firebaseio.com",
+    "projectId": "YOUR_PROJECT_ID",
+    "storageBucket": "YOUR_PROJECT.appspot.com",
+    "messagingSenderId": "YOUR_SENDER_ID",
+    "appId": "YOUR_APP_ID"
+  }
+}
