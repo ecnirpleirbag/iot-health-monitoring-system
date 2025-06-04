@@ -1,0 +1,39 @@
+name: Continuous Integration
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    name: Compile & Lint Check
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Python Dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Run Python Code Linter (flake8)
+        run: |
+          pip install flake8
+          flake8 ./python_scripts
+
+      - name: Compile Arduino Sketches (ESP32)
+        uses: arduino/compile-sketches@v1
+        with:
+          sketch-paths: |
+            arduino/esp32_main
+          fqbn: esp32:esp32:esp32dev
