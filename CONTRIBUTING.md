@@ -9,5 +9,5 @@ Thank you for your interest in contributing to this project! We welcome contribu
 
 2. **Clone your fork locally**  
    ```bash
-   git clone https://github.com/your-username/iot-health-monitoring.git
+   git clone https://github.com/ecnirpleirbag/iot-health-monitoring.git
    cd iot-health-monitoring
