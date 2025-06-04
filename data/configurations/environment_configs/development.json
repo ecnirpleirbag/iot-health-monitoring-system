@@ -1,0 +1,14 @@
+{
+  "debug": true,
+  "database": {
+    "type": "sqlite",
+    "file": "dev_vitals.db"
+  },
+  "logging": {
+    "level": "DEBUG"
+  },
+  "api_server": {
+    "host": "127.0.0.1",
+    "port": 5000
+  }
+}
