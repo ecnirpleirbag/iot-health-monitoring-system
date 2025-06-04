@@ -1,1 +1,7 @@
-// Coded need to be uploaded by Gabriel
+{
+  "heart_rate": 75,
+  "temperature": 36.6,
+  "systolic": 120,
+  "diastolic": 80,
+  "alert": false
+}
