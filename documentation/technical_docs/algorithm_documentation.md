@@ -1,27 +1,34 @@
-Algorithm Documentation
-1. Pulse Transit Time (PTT) Based BP Estimation
-Step 1: Capture ECG and PPG signals.
+# Algorithm Documentation
 
-Step 2: Detect R-peak in ECG and rising edge in PPG.
+## Pulse Transit Time (PTT) Based Blood Pressure Estimation
 
-Step 3: Calculate PTT = t_PPG - t_ECG.
+**Step 1**: Collect synchronized ECG and PPG signals.  
+**Step 2**: Detect R-peak in ECG and foot of PPG waveform.  
+**Step 3**: Calculate PTT = PPG_time - ECG_time  
+**Step 4**: Estimate BP using the empirical formula:
 
-Step 4: Use a regression equation to estimate blood pressure:
+Systolic = A - B × PTT
+Diastolic = C - D × PTT
 
-BP
-=
-𝑎
-×
-PTT
-+
-𝑏
-BP=a×PTT+b
-2. Heart Rate Measurement
-Based on MAX30102 IR LED signal peaks.
+Where A, B, C, and D are calibration constants.
 
-Count peaks per 60 seconds or use time between beats.
+---
 
-3. Temperature
-Read from DHT11/DHT22.
+## Heart Rate Measurement
 
-Simple digital readout every N seconds.
+Using MAX30100/02 IR signals:
+- Detect peaks in IR signal to calculate beats per minute (BPM)
+- Apply moving average filter for noise reduction
+
+---
+
+## Body Temperature
+
+Using DHT11 sensor:
+- `temp = dht.readTemperature();`
+
+---
+
+## Data Aggregation
+
+- All sensor values are timestamped and sent via WiFi to cloud every 2–3 seconds.
